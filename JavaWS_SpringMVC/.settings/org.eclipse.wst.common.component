@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
   <wb-module deploy-name="JavaWS_SpringMVC">
+        <dependent-module archiveName="ids-common-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/JavaWS_Common/JavaWS_Common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     <property name="context-root" value="spring3"/>
     <wb-resource deploy-path="/" source-path="src/main/webapp"/>
     <property name="java-output-path" value="/target/classes"/>
