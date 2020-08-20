@@ -1,10 +1,7 @@
 package com.ids.service;
 
-import java.util.List;
-
-import com.ids.entity.User;
+import com.ids.model.Student;
 
 public interface UserService {
-	public void addUser(String name);
-	public List<User> getAllUser();
+	public Student login(String username, String password);
 }

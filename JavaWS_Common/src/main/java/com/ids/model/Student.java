@@ -1,7 +1,7 @@
 /**
  * 
  */
-package vn.ids.jp.javaws.models;
+package com.ids.model;
 
 import java.util.Date;
 
